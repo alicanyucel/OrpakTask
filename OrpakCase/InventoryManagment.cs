@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 public class InventoryManagement
 {
-    SqlConnection connection = new SqlConnection("Data Source=DESKTOP-L6NJT48\\SQLEXPRESS;Initial Catalog=IlkDers;Integrated Security=True");
+    SqlConnection connection = new SqlConnection("Data Source=DESKTOP-L6NJT48\\SQLEXPRESS;Initial Catalog=Orpak;Integrated Security=True");
 
     // Ensure the connection is open
     public void ConnectionKontrol()
